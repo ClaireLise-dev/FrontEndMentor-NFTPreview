@@ -1,0 +1,34 @@
+$theme-colors: (
+    'primary': hsl(217, 54%, 11%),
+    'secondary': hsl(216, 50%, 16%),
+    'line':hsl(215, 32%, 27%),
+    'cyan': hsl(178, 100%, 50%),
+    'blue': hsl(215, 51%, 70%)
+);
+
+$font-size-root: 18px;
+$font-family-sans-serif: 'Outfit', sans-serif; 
+
+$link-color: white;
+$link-hover-color:  hsl(178, 100%, 50%);
+
+.profil {
+    width:10%;
+}
+
+
+
+.card-overlay {
+    height: 392px;
+    background-image: url(./images/icon-view.svg) no-repeat center;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    opacity: 0;
+    transition: ease-in-out 0.8s;
+}
+
+.card-overlay:hover{
+    opacity: 1;
+    transition: ease-in-out 0.8s;
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
