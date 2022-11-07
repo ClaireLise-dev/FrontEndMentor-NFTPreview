@@ -4,8 +4,6 @@
 }
 
 .card-overlay {
-  height: 392px;
-  background-image: url(./images/icon-view.svg) no-repeat center;
   background-color: hsla(178deg, 100%, 50%, 0.5);
   opacity: 0;
   transition: ease-in-out 0.8s;
